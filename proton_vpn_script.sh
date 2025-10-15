@@ -16,7 +16,7 @@ echo -e "${GREEN}[+] Installing dependencies...${NC}"
 sudo apt install -y openvpn dialog python3-pip wireguard resolvconf
 
 echo -e "${GREEN}[+] Installing ProtonVPN CLI...${NC}"
-pip3 install --upgrade protonvpn-cli
+pip3 install --upgrade protonvpn-cli  --break-system-pakages
 
 echo -e "${GREEN}[+] ProtonVPN CLI installed.${NC}"
 echo -e "${GREEN}[!] You may need to log out and log back in to apply group membership changes.${NC}"
