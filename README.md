@@ -1,36 +1,28 @@
-# PDF Text Extractor
+⚙️ Automation Scripts Collection
+🧠 Project Overview
 
-## 📝 Project Description
+This repository contains a collection of automation scripts written in Bash, Python, and other scripting languages.
+Each script is designed to simplify repetitive tasks, boost productivity, and streamline system operations for developers, security researchers, and power users.
 
-This is a simple Python script that extracts all of the text from a PDF file. It's a useful tool for converting PDFs into plain text documents, which can then be used for analysis, search, or storage.
+Whether you’re managing Linux environments, installing tools, extracting data, or automating workflows — this repo provides ready-to-use scripts to make your life easier.
 
-The script uses the popular `PyMuPDF` library, which is known for being fast and reliable.
+🚀 Features
 
-## 🚀 How to Use
+🐍 Python Scripts – For data processing, text extraction, and system automation.
 
-1.  **Install the Library:**
-    First, make sure you have the required library installed. Open your terminal or command prompt and run:
-    
-    ```bash
-    pip install pymupdf
-    ```
+💻 Bash Scripts – For Linux setup, tool installation, and command-line workflows.
 
-2.  **Place Your PDF:**
-    Put your PDF file in the same folder as the script (`pdf_reader.py`).
+🧩 Modular Structure – Each script is standalone, well-documented, and easy to customize.
 
-3.  **Run the Script:**
-    Open your terminal or command prompt in the project folder and run the script:
-    
-    ```bash
-    python pdf_reader.py
-    ```
-    
-    The script will create a new file named `extracted_text.txt` containing all of the text from your PDF.
+⚙️ Cross-Platform Ready – Most scripts are compatible with Debian-based Linux distros and Python 3.x environments.
 
----
+🔒 Security-Focused Tools – Some utilities target cybersecurity and system management use cases.
 
-### 🔨 Author
+🧩 Example Projects
+🛡️ ProtonVPN Installer (Bash)
 
-- Anas Mazhar Abbasi 
+A script that automates the installation and setup of ProtonVPN CLI on Kali Linux.
 
----
+📄 PDF Text Extractor (Python)
+
+Extracts all text from PDF files using the PyMuPDF library and saves it to a .txt file for easy access or analysis.
